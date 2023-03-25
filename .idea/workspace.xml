@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc6f253-fc75-4321-927b-052e2a741394" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingSemaphore/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingSemaphore/AddAPennyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingSemaphore/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/deadlockexample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/synchronized_collection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/threadstates.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\playgrounds\Multi-threading-java\multi-threading-java\src\main\java\com\tawfeek\accountExampleUsingSemaphore" />
       <recent name="D:\playgrounds\Multi-threading-java\multi-threading-java\src\main\java\com\tawfeek\multi_thread_printing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\playgrounds\Multi-threading-java\multi-threading-java\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tawfeek.accountExampleUsingLock" />
