@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc6f253-fc75-4321-927b-052e2a741394" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/stringClassesComparison/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadPool/PrintChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadPool/PrintNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingLock/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingLock/AddAPennyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingLock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadSynchronization/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadSynchronization/AddAPennyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadSynchronization/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadPool/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadPool/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "show.migrate.to.gradle.popup": "false",
     "two.files.diff.last.used.file": "D:/playgrounds/Multi-threading-java/multi-threading-java/src/main/java/com/tawfeek/multi_thread_printing/MultiThreadDemo.java",
     "vue.rearranger.settings.migration": "true"
@@ -63,8 +68,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\playgrounds\Multi-threading-java\multi-threading-java\src\main\java\com\tawfeek\multi_thread_printing" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tawfeek.accountExampleUsingLock" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.com.tawfeek.threadSynchronization.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tawfeek.stringClassesComparison.Main" />
       <module name="multi-threading-java" />
@@ -78,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tawfeek.multiThreadDemoConcurrentPrint.MultiThreadDemo" />
+    <configuration name="MultiThreadDemoWithSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tawfeek.multiThreadDemoConcurrentPrint.MultiThreadDemoWithSleep" />
       <module name="multi-threading-java" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadDemoWithSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tawfeek.multiThreadDemoConcurrentPrint.MultiThreadDemoWithSleep" />
+    <configuration name="com.tawfeek.accountExampleUsingLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tawfeek.accountExampleUsingLock.Main" />
       <module name="multi-threading-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tawfeek.multiThreadDemoConcurrentPrint.*" />
+          <option name="PATTERN" value="com.tawfeek.accountExampleUsingLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tawfeek.threadSynchronization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tawfeek.threadSynchronization.Main" />
+      <module name="multi-threading-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tawfeek.threadSynchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,10 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.tawfeek.threadSynchronization.Main" />
+        <item itemvalue="Application.com.tawfeek.accountExampleUsingLock.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.MultiThreadDemoWithSleep" />
-        <item itemvalue="Application.MultiThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +157,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679580061981</updated>
       <workItem from="1679580062900" duration="1614000" />
-      <workItem from="1679646483253" duration="9107000" />
+      <workItem from="1679646483253" duration="9108000" />
+      <workItem from="1679732678221" duration="4610000" />
     </task>
     <servers />
   </component>
