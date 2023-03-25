@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc6f253-fc75-4321-927b-052e2a741394" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingLock/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingLock/AddAPennyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingLock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadSynchronization/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadSynchronization/AddAPennyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/threadSynchronization/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingSemaphore/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingSemaphore/AddAPennyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tawfeek/accountExampleUsingSemaphore/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,33 +41,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "D:/playgrounds/Multi-threading-java/multi-threading-java/src/main/java/com/tawfeek/multi_thread_printing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "show.migrate.to.gradle.popup": "false",
-    "two.files.diff.last.used.file": "D:/playgrounds/Multi-threading-java/multi-threading-java/src/main/java/com/tawfeek/multi_thread_printing/MultiThreadDemo.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/playgrounds/Multi-threading-java/multi-threading-java/src/main/java/com/tawfeek/accountExampleUsingSemaphore&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/playgrounds/Multi-threading-java/multi-threading-java/src/main/java/com/tawfeek/multi_thread_printing/MultiThreadDemo.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\playgrounds\Multi-threading-java\multi-threading-java\src\main\java\com\tawfeek\accountExampleUsingSemaphore" />
       <recent name="D:\playgrounds\Multi-threading-java\multi-threading-java\src\main\java\com\tawfeek\multi_thread_printing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tawfeek.accountExampleUsingLock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tawfeek.threadSynchronization.Main">
+  <component name="RunManager" selected="Application.com.tawfeek.accountExampleUsingSemaphore.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tawfeek.stringClassesComparison.Main" />
       <module name="multi-threading-java" />
@@ -86,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadDemoWithSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tawfeek.multiThreadDemoConcurrentPrint.MultiThreadDemoWithSleep" />
+    <configuration name="com.tawfeek.accountExampleUsingLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tawfeek.accountExampleUsingLock.Main" />
       <module name="multi-threading-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tawfeek.multiThreadDemoConcurrentPrint.*" />
+          <option name="PATTERN" value="com.tawfeek.accountExampleUsingLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tawfeek.accountExampleUsingLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tawfeek.accountExampleUsingLock.Main" />
+    <configuration name="com.tawfeek.accountExampleUsingSemaphore.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tawfeek.accountExampleUsingSemaphore.Main" />
       <module name="multi-threading-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tawfeek.accountExampleUsingLock.*" />
+          <option name="PATTERN" value="com.tawfeek.accountExampleUsingSemaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.tawfeek.accountExampleUsingSemaphore.Main" />
         <item itemvalue="Application.com.tawfeek.threadSynchronization.Main" />
         <item itemvalue="Application.com.tawfeek.accountExampleUsingLock.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.MultiThreadDemoWithSleep" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +154,7 @@
       <updated>1679580061981</updated>
       <workItem from="1679580062900" duration="1614000" />
       <workItem from="1679646483253" duration="9108000" />
-      <workItem from="1679732678221" duration="4610000" />
+      <workItem from="1679732678221" duration="5396000" />
     </task>
     <servers />
   </component>
